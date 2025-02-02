@@ -1,0 +1,24 @@
+﻿  Top Samly System.cpp
+Load.obj : error LNK2005: "int Login_State" (?Login_State@@3HA) 已经在 datas.obj 中定义
+Load.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > Usernames" (?Usernames@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) 已经在 datas.obj 中定义
+Load.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > Passwords" (?Passwords@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) 已经在 datas.obj 中定义
+LoginUI.obj : error LNK2005: "bool __cdecl LoginUIs(void)" (?LoginUIs@@YA_NXZ) 已经在 Load.obj 中定义
+LoginUI.obj : error LNK2005: "int Login_State" (?Login_State@@3HA) 已经在 datas.obj 中定义
+LoginUI.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > Usernames" (?Usernames@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) 已经在 datas.obj 中定义
+LoginUI.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > Passwords" (?Passwords@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) 已经在 datas.obj 中定义
+PowerSupply.obj : error LNK2005: "void __cdecl Shutdown(void)" (?Shutdown@@YAXXZ) 已经在 Load.obj 中定义
+PowerSupply.obj : error LNK2005: "void __cdecl Sleeps(void)" (?Sleeps@@YAXXZ) 已经在 Load.obj 中定义
+PowerSupply.obj : error LNK2005: "int Login_State" (?Login_State@@3HA) 已经在 datas.obj 中定义
+PowerSupply.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > Usernames" (?Usernames@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) 已经在 datas.obj 中定义
+PowerSupply.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > Passwords" (?Passwords@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) 已经在 datas.obj 中定义
+Top Samly System.obj : error LNK2005: "void __cdecl Load_Start(void)" (?Load_Start@@YAXXZ) 已经在 Load.obj 中定义
+Top Samly System.obj : error LNK2005: "bool __cdecl LoginUIs(void)" (?LoginUIs@@YA_NXZ) 已经在 Load.obj 中定义
+Top Samly System.obj : error LNK2005: "void __cdecl Options_(int)" (?Options_@@YAXH@Z) 已经在 Load.obj 中定义
+Top Samly System.obj : error LNK2005: "void __cdecl Output_(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?Output_@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 已经在 Load.obj 中定义
+Top Samly System.obj : error LNK2005: "void __cdecl Shutdown(void)" (?Shutdown@@YAXXZ) 已经在 Load.obj 中定义
+Top Samly System.obj : error LNK2005: "void __cdecl Sleeps(void)" (?Sleeps@@YAXXZ) 已经在 Load.obj 中定义
+Top Samly System.obj : error LNK2005: "void __cdecl init_all_number(void)" (?init_all_number@@YAXXZ) 已经在 Load.obj 中定义
+Top Samly System.obj : error LNK2005: "int Login_State" (?Login_State@@3HA) 已经在 datas.obj 中定义
+Top Samly System.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > Usernames" (?Usernames@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) 已经在 datas.obj 中定义
+Top Samly System.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > Passwords" (?Passwords@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) 已经在 datas.obj 中定义
+G:\Project\TopSamlySystem\Top Samly System\x64\Debug\Top Samly System.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

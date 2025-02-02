@@ -1,0 +1,138 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “freopen”。"
+          },
+          "analysisTarget": {
+            "uri": "file:///g:/project/topsamlysystem/top samly system/top samly system/loginui.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Project/TopSamlySystem/Top Samly System/Top Samly System/LoginUI.cpp"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 5,
+                  "endLine": 9,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginUI",
+                  "decoratedName": "?LoginUI@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “freopen”。"
+          },
+          "analysisTarget": {
+            "uri": "file:///g:/project/topsamlysystem/top samly system/top samly system/loginui.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Project/TopSamlySystem/Top Samly System/Top Samly System/LoginUI.cpp"
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 5,
+                  "endLine": 11,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginUI",
+                  "decoratedName": "?LoginUI@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “freopen”。"
+          },
+          "analysisTarget": {
+            "uri": "file:///g:/project/topsamlysystem/top samly system/top samly system/loginui.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Project/TopSamlySystem/Top Samly System/Top Samly System/LoginUI.cpp"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 5,
+                  "endLine": 13,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginUI",
+                  "decoratedName": "?LoginUI@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34436.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///g:/project/topsamlysystem/top samly system/top samly system/loginui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "90429f680343d8c2b0b0b1f3f4cee567e28c5f27438b13be87f3445d98dcf400"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/project/topsamlysystem/top samly system/top samly system/hashe.h"
+          },
+          "hashes": {
+            "sha-256": "ef6acffcddf83ebf8876766092dc8bd5544a324abde6a1f1970c93934ab57af1"
+          }
+        }
+      ]
+    }
+  ]
+}
